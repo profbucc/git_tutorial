@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="It">
+<head>
+<title>Prova CSS</title>
+<link rel="stylesheet" href="css/stile.css">
+<style>
+div.margini p {
+  float:left; 
+  text-align:center;
+  width:50px;
+  border-width:6px;
+  border-color:green;
+  margin:4px;
+}
+div.margini p:nth-child(1) {
+  border-style:solid;
+}
+div.margini p:nth-child(2) {
+  border-style:dotted;
+}
+div.margini p:nth-child(3) {
+  border-style:dashed;
+}
+div.margini p:nth-child(4) {
+  border-style:inset;
+}
+div.margini p:nth-child(5) {
+  border-style:outset;
+}
+div.margini p:nth-child(6) {
+  border-style:ridge;
+}
+div.margini p:nth-child(7) {
+  border-style:groove;
+}
+p:nth-child(8) {
+  border-style:double;
+}
+p:nth-child(9) {
+  border:none;
+}
+
+</style>
+</head>
+<body>
+<div class="margini">
+<p>solid</p>
+<p>dotted</p> 
+<p>dashed</p>
+<p>inset</p>
+<p>outset</p>
+<p>ridge</p>
+<p>groove</p>
+<p>double</p>
+<p>none</p>
+</div>
+<div>
+ <p>ciao</p>
+</div>
+</body>
+</html>
